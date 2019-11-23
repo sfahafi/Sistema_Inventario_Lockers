@@ -1,9 +1,8 @@
 drop database if exists locker;
 create database locker;
-
 use locker;
 
-use a19MVQ8iJ7;
+use a19MVQ8iJ7; -- Nombre, base de datos remota. (Remotemysql.com)
 
 drop table if exists modulos;
 create table modulos(
