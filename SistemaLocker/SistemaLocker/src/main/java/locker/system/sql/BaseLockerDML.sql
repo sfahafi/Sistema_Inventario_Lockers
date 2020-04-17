@@ -1,6 +1,6 @@
 use locker;
 
-use a19MVQ8iJ7;
+use 7Dw3hH3cia;
 
 insert into ubicaciones(provincia, barrio, direccion, locacion) values
     ('CABA','Colegiales','Concepcion Arenal 2644','Planta'),

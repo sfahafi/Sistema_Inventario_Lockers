@@ -3,8 +3,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 public class Connector {
     
-    private static String driver = "com.mysql.jdbc.Driver";
-    //private static String driver = "com.mysql.cj.jdbc.Driver";
+    //private static String driver = "com.mysql.jdbc.Driver";
+    private static String driver = "com.mysql.cj.jdbc.Driver";
     
     //Localhost 
     //private static String url="jdbc:mysql://localhost:3306/locker";
@@ -17,9 +17,9 @@ public class Connector {
     //private static String pass="";
     
     //remotemysql.com
-    private static String url="jdbc:mysql://remotemysql.com:3306/a19MVQ8iJ7";
-    private static String user="a19MVQ8iJ7";
-    private static String pass="nlxJI5DyiX";
+    private static String url="jdbc:mysql://remotemysql.com:3306/7Dw3hH3cia";
+    private static String user="7Dw3hH3cia";
+    private static String pass="wH2IizaMsB";
     
     private static Connection conn = null;
     private Connector(){}
